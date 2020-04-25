@@ -138,4 +138,9 @@ output application/json
 		<logger level="INFO" doc:name="Logger" doc:id="3c23bbe1-bef6-4992-a1b3-0ccf368ced12" message="Request received............."/>
 		<flow-ref doc:name="indigoFlightsFlow" doc:id="9bf8ec2c-f736-4959-97ec-ab14c8e1294c" name="indigoFlightsFlow"/>
     </flow>
+    
+     <flow name="get:\listAllIndigoFlights:indigoapi-config">
+		<logger level="INFO" doc:name="Logger" doc:id="6b354709-6d3a-4fe7-80bd-d6f1142e088c" />
+		
+    </flow>
 </mule>

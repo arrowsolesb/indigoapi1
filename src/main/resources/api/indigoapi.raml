@@ -16,3 +16,13 @@ types:
           application/json:
             type: Flight[]
             example: !include examples/IndigoFlightsExample.raml
+
+/listAllIndigoFlights:
+  get:
+     responses:
+      200:
+        body: 
+          application/json:
+            type: Flight[]
+            example: !include examples/IndigoFlightsExample.raml
+  

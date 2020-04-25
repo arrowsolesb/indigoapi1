@@ -3,7 +3,7 @@
 <mule xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
-	<flow name="indigoFlightsFlow" doc:id="5d9be8c4-8e0e-46d6-a685-6242c2917b95" >
-		<logger level="INFO" doc:name="Logger" doc:id="b4a2fb73-3fb1-4bb9-987c-bd1cdfe6a8b6" />
+	<flow name="listAllIndigoFlightsFlow" doc:id="c7978a09-a47f-4595-ae53-c26001dfe62a" >
+		<logger level="INFO" doc:name="Logger" doc:id="4c8be27f-497a-487c-9fae-c6073c2affcd" />
 	</flow>
 </mule>
