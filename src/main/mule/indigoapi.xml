@@ -8,7 +8,7 @@
 	</http:request-config>
 	
 	
-	<configuration-properties doc:name="Configuration properties" doc:id="8f9dc4ee-57d4-41ab-9ec5-c82b43b6db9d" file="indigoapi-${env}.yaml" />
+	<configuration-properties doc:name="Configuration properties" doc:id="8f9dc4ee-57d4-41ab-9ec5-c82b43b6db9d" file="indigoapi-DEV.yaml" />
 	
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="8fee0b87-9100-44ef-a2c1-2a5e4837058f" >
 		<http:listener-connection host="0.0.0.0" port="8081" />
