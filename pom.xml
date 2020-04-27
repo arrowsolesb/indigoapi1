@@ -26,6 +26,14 @@
 				<extensions>true</extensions>
 				<configuration>
 				<classifier>mule-application</classifier>
+				 <cloudHubDeployment>
+	     			<uri>https://anypoint.mulesoft.com</uri>
+	     			<username>esb09</username>
+	    			<password>${password}</password>
+	     			<environment>Sandbox</environment>
+	     			<applicationName>indigoapi-cloudhub</applicationName>
+	      			<muleVersion>4.2.2</muleVersion>
+    			</cloudHubDeployment>
                 </configuration>
 			</plugin>
 		</plugins>
