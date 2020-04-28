@@ -29,7 +29,7 @@
 				 <cloudHubDeployment>
 	     			<uri>https://anypoint.mulesoft.com</uri>
 	     			<username>esb09</username>
-	    			<password>${password}</password>
+	    			<password>Esb@09</password>
 	     			<environment>Sandbox</environment>
 	     			<applicationName>indigoapi-cloudhub</applicationName>
 	      			<muleVersion>4.2.2</muleVersion>
