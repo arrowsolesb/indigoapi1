@@ -33,6 +33,8 @@
 	     			<environment>Sandbox</environment>
 	     			<applicationName>indigoapi-cloudhub</applicationName>
 	      			<muleVersion>4.2.2</muleVersion>
+	      			 <workerType>Micro</workerType>
+     				 <workers>1</workers>
 	      			<objectStoreV2>true</objectStoreV2>
     			</cloudHubDeployment>
                 </configuration>
